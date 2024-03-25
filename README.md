@@ -7,21 +7,32 @@ Welcome to my first project, the calm down website is a landing page for people 
 ## Features
 
 ### Navigation
- 
+mobile view: title above navigation elements. All text-align: center. Keep in mind padding of the main section and min width like in all other websites.
+
+Desktop view: Logo on the left site, navigation elements on the right site.
+
+media query 3 odr 4 breakpoints?
 <!-- screenshot of the nav -->
 
 ### The header 
 <!-- screenshot of the nav -->
 
-### Why
+### Why? / Home
+Add a picture
 <!-- screenshot of the nav -->
 
-### Meditations
+### HOW / Content
 <!-- screenshot of the nav -->
 
-### About
+### WHAT / About
+
+### WHO / Contact
 <!-- screenshot of the nav -->
 
+## Design
+change awesome font designs for Facebook&Co
+add awesome font pics for five reasons to start
+add awesome font pics for each meditation
 
 ## Testing 
 
