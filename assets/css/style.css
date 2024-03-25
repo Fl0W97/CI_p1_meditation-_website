@@ -1,0 +1,132 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #f8f7f3;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#logo_size {
+    height: 30px;
+    width: 30px;
+}
+
+nav {
+    top: 100%;
+    border-top: 1px solid grey;
+    margin: auto;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#menu > li {
+    margin: 0.3em;
+    color: #7d7d7d;
+}
+
+#menu li a {
+    color: #7d7d7d;
+}
+
+#menu li a:hover {
+    color: #f4b400;
+    border-top: 3px solid #f4b400;
+    font-weight: bold;
+}
+
+.active {
+    border-top: 3px solid #0f9d58;
+    font-weight: bold;
+}
+
+/* Main content */
+main {
+    background-color: #ffffff;
+    padding-top: 100px;
+    margin: auto;
+    width: 85%;
+
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+}
+
+.section_style {
+  margin: 5px;
+  padding: 5px;
+  background-color: #F8F7F3;
+}
+
+/* meditations */
+
+.meditation-content {
+  border: 2px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #f8f7f3;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.social-networks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+/* color codes
+
+white #ffffff
+white/grey #f8f7f3
+blue #4285f4
+green #0f9d58
+yellow #f4b400
+red #d84437
+
+add scroll-up div (position absolute)
