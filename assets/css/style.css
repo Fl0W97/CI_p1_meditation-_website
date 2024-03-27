@@ -117,21 +117,7 @@ footer {
   list-style-type: none;
 }
 
-/* color codes
-
-white #ffffff
-white/grey #f8f7f3
-blue #4285f4
-green #0f9d58
-yellow #f4b400
-red #d84437
-
-add scroll-up div (position absolute)
-
-
- breakpoints 320px, 768px, and 1200px
-
- /* Media query: tables and alrger (768px and up) */
+ /* Media query: tables and larger (768px and up) */
 
  @media screen and (min-width: 768px) {
 
@@ -168,6 +154,7 @@ add scroll-up div (position absolute)
     }
  }   
 
+  /* Media query: desktop and larger (992px and up) */
  @media screen and (min-width: 992px) {
 
     #menu li a:hover {
@@ -178,3 +165,14 @@ add scroll-up div (position absolute)
     }
 
  }
+
+ /* color codes and further notes
+
+white #ffffff
+white/grey #f8f7f3
+blue #4285f4
+green #0f9d58
+yellow #f4b400
+red #d84437
+
+add scroll-up div (position absolute)
