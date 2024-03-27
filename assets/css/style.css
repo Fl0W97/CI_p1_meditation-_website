@@ -11,6 +11,7 @@
 /* General styles */
 body {
     min-height: 100vh;
+    min-width: 320px; /* I want to have the min-width to 320px so that he navigation is not pushed down. But it's not working */
     display: flex;
     flex-direction: column;
     /* Generic project styles */
@@ -20,7 +21,7 @@ body {
 
 /* Header */
 header {
-    background-color: #f8f7f3;
+    background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -50,12 +51,12 @@ h1 {
 nav {
     top: 100%;
     border-top: 1px solid grey;
-    margin: auto;
+    /* margin: auto; */
 }
 
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
@@ -63,30 +64,26 @@ nav {
 }
 
 #menu > li {
-    margin: 0.3em;
+    margin: 0.3rem;
     color: #7d7d7d;
 }
 
 #menu li a {
     color: #7d7d7d;
-}
-
-#menu li a:hover {
-    color: #f4b400;
-    border-top: 3px solid #f4b400;
-    font-weight: bold;
+    padding-right: 1rem;
+    padding-left: 3px;
 }
 
 .active {
-    border-top: 3px solid #0f9d58;
+    border-left: 5px solid #0f9d58;
     font-weight: bold;
 }
 
 /* Main content */
 main {
-    background-color: #ffffff;
-    padding-top: 100px;
+    background-color: #f8f7f3;
     margin: auto;
+    margin-top: 100px;
     width: 85%;
 
     /* Make main element take up any surplus space to push footer down */
@@ -130,3 +127,54 @@ yellow #f4b400
 red #d84437
 
 add scroll-up div (position absolute)
+
+
+ breakpoints 320px, 768px, and 1200px
+
+ /* Media query: tables and alrger (768px and up) */
+
+ @media screen and (min-width: 768px) {
+
+    h1 {
+        text-align: left;
+        padding-bottom: 5px;
+    }
+    
+    #calmdown-logo {
+        font-size: 250%;
+        margin: 0 0.5rem;
+    }
+
+    nav {
+        width: fit-content;
+        border-top: none;
+        font-size: 110%;
+    }
+
+    #menu {
+        text-align: right;
+        flex: wrap;
+        justify-content: flex-end;
+    }
+
+    #menu li a {
+        padding-right: 2rem;
+        padding-left: 5px;
+    }
+
+    main {
+        /* push down content due to larger header */
+        margin-top: 130px;
+    }
+ }   
+
+ @media screen and (min-width: 992px) {
+
+    #menu li a:hover {
+        color: #f4b400;
+        padding-left: 5px;
+        border-left: 5px solid #f4b400;
+        font-weight: bold;
+    }
+
+ }
