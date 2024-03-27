@@ -122,7 +122,7 @@ footer {
  @media screen and (min-width: 768px) {
 
     h1 {
-        text-align: left;
+        text-align: left; /*h1 elemet is supposed to be right */
         padding-bottom: 5px;
     }
     
@@ -135,12 +135,13 @@ footer {
         width: fit-content;
         border-top: none;
         font-size: 110%;
+        /* text-align: right; - menu elemets are supposed to be right, but it does not work */
     }
 
     #menu {
-        text-align: right;
+        /* text-align: right; - menu elemets are supposed to be right, but with text-align it does not work */
         flex: wrap;
-        justify-content: flex-end;
+        justify-content: flex-end; /* menu elemets are supposed to be right, but with flex it does not work */
     }
 
     #menu li a {
