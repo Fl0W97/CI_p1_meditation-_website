@@ -7,32 +7,37 @@ Welcome to my first project, the calm down website is a landing page for people 
 ## Features
 
 ### Navigation
-mobile view: title above navigation elements. All text-align: center. Keep in mind padding of the main section and min width like in all other websites.
 
-Desktop view: Logo on the left site, navigation elements on the right site.
+The user is able to navigate on the navigation bar. There are three navigation elements according to the three pages Why, How, Who. Due to responsive design requiremets the behaviour and position of the navigation bar is slightly different.
+To keep the complexity low and due to the fact that the menu elements are short, there is no toggle function for the mobile view.
 
-media query 3 odr 4 breakpoints?
+Mobile view: Elements are aligned to the center. No toggle used. The widh of the navigation has a min-width (320px) so that the content is not covered from the navigation once the screen gets to smaller. The content top-margin is fixed (130px).
+
+Tablet view: Logo on the left site, navigation elements on the right site.
+
+Desktop view: Logo on the left site, navigation elements on the right site. However effect is implemented. 
+
+There are three media query breakpoints used: (320px), 768px, 992px
+
 <!-- screenshot of the nav -->
 
 ### The header 
+Title and logo are above the navigation. Depending on the media query the header gets bigger. The font-size/size of title and logo increases. 
+
 <!-- screenshot of the nav -->
 
-### Why? / Home
-Add a picture
+### Why? / Welcome/ about page
 <!-- screenshot of the nav -->
 
-### HOW / Content
+### HOW / Content page includes meditation techniques
 <!-- screenshot of the nav -->
 
-### WHAT / About
-
-### WHO / Contact
+### WHO / Contact page
 <!-- screenshot of the nav -->
 
 ## Design
 change awesome font designs for Facebook&Co
-add awesome font pics for five reasons to start
-add awesome font pics for each meditation
+add freepik.com illustration for each seaction
 
 ## Testing 
 
@@ -45,15 +50,15 @@ add awesome font pics for each meditation
 
 ## Deployment
 
+Deployment link: 
+
 ## Credits
 
 ### Media
+https://fontawesome.com/
+https://www.freepik.com/search?format=search&img=1&last_filter=img&last_value=1&query=&selection=1
 
 ### Content
+Book search inside yourself
+...
 
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
