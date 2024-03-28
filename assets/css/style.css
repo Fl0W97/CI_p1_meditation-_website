@@ -132,7 +132,7 @@ footer {
     }
 
     nav {
-        width: fit-content;
+        /* width: fit-content; */
         border-top: none;
         font-size: 110%;
         /* text-align: right; - menu elemets are supposed to be right, but it does not work */
