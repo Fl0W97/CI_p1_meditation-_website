@@ -150,6 +150,13 @@ main {
     border: 2px double #0f9d58;
 }
 
+#image_pixel_brain {
+    background: url("../images_logo/pixel_brain.jpg") no-repeat top right / cover;
+    height: 60vw;
+    width: 60vw;
+    border-radius: 50%;
+}
+
 /* meditations */
 .meditation-content {
   border: 2px;
