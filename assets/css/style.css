@@ -92,6 +92,7 @@ main {
     height: 500px;
     width: 100%;
     background: url("../images_logo/hero_image.jpg") no-repeat center center/cover;
+    border-bottom: 3px solid #3a3a3a;
 }
 
 #text_cover {
@@ -109,25 +110,47 @@ main {
 
 .section_style {
   margin: auto;
-  width: 85%;
-  padding-top: 20px;
+  /* width: 85%; */
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #0f9d58;
 }
 
-.order_reason_infobox {
+.bg-dark {
+    background-color: #dcccb2;
+    width: 60&
+    padding: auto;
+}
+
+.reasons_infobox {
     margin: auto;
     width: 85%;
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
 }
-
 
 .reason_why {
     border-bottom: 1px solid #3a3a3a;
     padding: 20px;
 }
 
+.noborder {
+    border-bottom: 0px;
+}
+
+.infobox {
+    padding: 30px;
+    margin-top: 10px;
+}
+
+.infobox_style {
+    padding: 20px;
+    border: 2px double #0f9d58;
+}
 
 /* meditations */
-
 .meditation-content {
   border: 2px;
 }
@@ -135,9 +158,10 @@ main {
 
 /* Footer */
 footer {
-    background-color: #f8f7f3;
-    padding-top: 0.5rem;
+    background-color: #dcccb2;
+    padding-top: 1rem;
     padding-bottom: 1rem;
+    border-top: 2px solid #3a3a3a;
 }
 
 .social-networks {
@@ -145,10 +169,11 @@ footer {
   flex-wrap: wrap;
   justify-content: space-around;
   list-style-type: none;
+  color: #0f9d58;
+  font-size: 150%;
 }
 
  /* Media query: tables and larger (768px and up) */
-
  @media screen and (min-width: 768px) {
 
     h1 {
@@ -190,11 +215,6 @@ footer {
         right: 70px;
     }
 
-    /* make it look more interesting for bigger screens */
-    .reason_why{
-        width: 50%;
-    }
-
     /*
     .reason_why.right {
         text-align: end;
@@ -202,16 +222,19 @@ footer {
     }
     */
 
-    .order_reasons_infobox {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+    .reasons_infobox {
+        flex-direction: row;
+        width: 80%;
     }
 
-    .info-box {
-        width: 40%;
+    .reasons {
+        width: 100%;
     }
-    
+
+    .infobox {
+        width: 50%;
+    }
+
  }   
 
   /* Media query: desktop and larger (992px and up) */
