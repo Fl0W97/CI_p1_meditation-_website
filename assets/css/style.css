@@ -152,8 +152,9 @@ main {
 
 #image_pixel_brain {
     background: url("../images_logo/pixel_brain.jpg") no-repeat top right / cover;
-    height: 60vw;
-    width: 60vw;
+    text-align: right;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
 }
 
@@ -240,6 +241,12 @@ footer {
 
     .infobox {
         width: 50%;
+    }
+
+    #image_pixel_brain {
+        height: 70px;
+        width: 70px;
+        padding-bottom: 15px;
     }
 
  }   
