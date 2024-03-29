@@ -96,7 +96,7 @@ main {
     background: url("../images_logo/hero_image.jpg") no-repeat center center/cover;
 }
 
-.text-cover {
+.text_cover {
     /* rgba value transparent */
     width: 85%;
     background-color: rgba(241, 109, 107, .7);
