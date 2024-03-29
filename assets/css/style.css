@@ -11,7 +11,7 @@
 /* General styles */
 body {
     min-height: 100vh;
-    min-width: 320px; /* I want to have the min-width to 320px so that he navigation is not pushed down. But it's not working */
+    /* min-width: 320px; I want to have the min-width to 320px so that he navigation is not pushed down. But it's not working */
     display: flex;
     flex-direction: column;
     /* Generic project styles */
@@ -84,10 +84,22 @@ main {
     background-color: #f8f7f3;
     margin: auto;
     margin-top: 100px;
-    width: 85%;
+    /* width: 85%; */
 
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+}
+
+#hero_image {
+    height: 500px;
+    width: 100%;
+    background: url("../images_logo/hero_image.jpg") no-repeat center center/cover;
+}
+
+.text-cover {
+    /* rgba value transparent */
+    width: 85%;
+    background-color: rgba(241, 109, 107, .7);
 }
 
 .section_style {
