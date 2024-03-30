@@ -94,6 +94,10 @@ main {
     border-bottom: 3px solid #3a3a3a;
 }
 
+#hero_small {
+    height: 200px;
+}
+
 #text_cover {
     /* rgba value transparent */
     color: #ffffff;
@@ -159,6 +163,10 @@ main {
   border: 2px;
 }
 
+.bg-image {
+    background: url("../images_logo/scenery-countryside-road.jpg") no-repeat center /cover;
+    color: #f8f7f3;
+}
 
 /* Footer */
 footer {
