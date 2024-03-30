@@ -51,7 +51,6 @@ h1 {
 nav {
     top: 100%;
     border-top: 1px solid grey;
-    /* margin: auto; */
 }
 
 #menu {
@@ -110,7 +109,6 @@ main {
 
 .section_style {
   margin: auto;
-  /* width: 85%; */
   padding: 20px;
   text-align: center;
   border-bottom: 1px solid #0f9d58;
@@ -118,8 +116,7 @@ main {
 
 .bg-dark {
     background-color: #dcccb2;
-    width: 60&
-    padding: auto;
+    width: 60%;
 }
 
 .reasons_infobox {
@@ -185,7 +182,7 @@ footer {
  @media screen and (min-width: 768px) {
 
     h1 {
-        text-align: left; /*h1 elemet is supposed to be right */
+        text-align: left;
         padding-bottom: 5px;
     }
     
@@ -195,16 +192,14 @@ footer {
     }
 
     nav {
-        /* width: fit-content; */
         border-top: none;
         font-size: 110%;
-        /* text-align: right; - menu elemets are supposed to be right, but it does not work */
     }
 
     #menu {
-        /* text-align: right; - menu elemets are supposed to be right, but with text-align it does not work */
-        flex: wrap;
-        justify-content: flex-end; /* menu elemets are supposed to be right, but with flex it does not work */
+        /* push menu elemets to the right  */
+        flex-wrap: wrap;
+        justify-content: flex-end;
     }
 
     #menu li a {
