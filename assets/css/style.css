@@ -110,13 +110,12 @@ main {
 .section_style {
   margin: auto;
   padding: 20px;
-  text-align: center;
   border-bottom: 1px solid #0f9d58;
 }
 
 .bg-dark {
     background-color: #dcccb2;
-    width: 60%;
+    text-align: center;
 }
 
 .reasons_infobox {
