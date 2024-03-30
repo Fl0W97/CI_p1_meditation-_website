@@ -94,8 +94,11 @@ main {
     border-bottom: 3px solid #3a3a3a;
 }
 
+/* currently not working */
 #hero_small {
     height: 200px;
+    width: 100%;
+    background: url("../images_logo/hero_image.jpg") no-repeat center center/cover;
 }
 
 #text_cover {
@@ -251,6 +254,15 @@ footer {
         padding-bottom: 15px;
     }
 
+    #center_image_how {
+        background: url("../images_logo/flat_people_meditating.jpg") no-repeat top right / cover;
+        text-align: center;
+        justify-content:space-around;
+        align-items: center;
+        height: 200px;
+        width: 200px;
+        border-radius: 4px;
+    }
  }   
 
   /* Media query: desktop and larger (992px and up) */
