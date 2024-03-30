@@ -43,6 +43,11 @@ h1 {
     padding-bottom: 10px;
 }
 
+h4 {
+    text-align: center;
+    padding: 25px 0 15px;
+}
+
 #logo_size {
     height: 30px;
     width: 30px;
@@ -53,7 +58,7 @@ nav {
     border-top: 1px solid grey;
 }
 
-#menu {
+.menu {
     font-size: 110%;
     letter-spacing: 1px;
     list-style-type: none;
@@ -62,12 +67,12 @@ nav {
     justify-content: space-around;
 }
 
-#menu > li {
+.menu > li {
     margin: 0.3rem;
     color: #7d7d7d;
 }
 
-#menu li a {
+.menu li a {
     color: #7d7d7d;
     padding-right: 1rem;
     padding-left: 3px;
@@ -164,11 +169,17 @@ main {
 /* meditations */
 .meditation-content {
   border: 2px;
+  padding: 5px;
 }
 
 .bg-image {
     background: url("../images_logo/scenery-countryside-road.jpg") no-repeat center /cover;
     color: #f8f7f3;
+}
+
+
+audio {
+    padding: 7px;
 }
 
 /* Footer */
@@ -206,13 +217,18 @@ footer {
         font-size: 110%;
     }
 
-    #menu {
+    .menu {
         /* push menu elemets to the right  */
         flex-wrap: wrap;
         justify-content: flex-end;
     }
 
-    #menu li a {
+    .menu2_adjust {
+        /* put the section menu in techniques.html in the center*/
+        justify-content: center;
+    }
+
+    .menu li a {
         padding-right: 2rem;
         padding-left: 5px;
     }
@@ -236,7 +252,8 @@ footer {
     */
 
     .reasons_infobox {
-        flex-direction: row;
+        flex-direction: inherit;
+        justify-content: space-around;
         width: 80%;
     }
 
@@ -254,29 +271,41 @@ footer {
         padding-bottom: 15px;
     }
 
-    #center_image_how {
-        background: url("../images_logo/flat_people_meditating.jpg") no-repeat top right / cover;
-        text-align: center;
-        justify-content:space-around;
-        align-items: center;
-        height: 200px;
-        width: 200px;
-        border-radius: 4px;
-    }
  }   
 
   /* Media query: desktop and larger (992px and up) */
  @media screen and (min-width: 992px) {
 
-    #menu li a:hover {
+    .menu li a:hover {
         color: #0f9d58;
         padding-left: 5px;
         border-left: 5px solid #0f9d58;
         font-weight: bold;
     }
 
+    #center_image_how {
+        background: url("../images_logo/flat_people_meditating.jpg") no-repeat top right / cover;
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+    }
+
+    .menu2_adjust {
+        /* put the section menu in techniques.html in the center*/
+        display: none;
+    }
  }
 
+  /* Media query: desktop and larger (992px and up) 
+  @media screen and (min-width: 992px) {
+
+    #center_image_how {
+        order: 1;
+    }
+
+    order 0... left
+ }
+*/
  /* color codes and further notes
 
 white #ffffff
