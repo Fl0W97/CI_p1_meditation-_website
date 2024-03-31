@@ -43,6 +43,10 @@ h1 {
     padding-bottom: 10px;
 }
 
+h3 {
+    box-shadow: 0 2px 0 #0f9d58;
+}
+
 h4 {
     text-align: center;
     padding: 25px 0 15px;
@@ -139,7 +143,6 @@ main {
 }
 
 .reason_why {
-    border-bottom: 1px solid #3a3a3a;
     padding: 20px;
 }
 
@@ -165,21 +168,25 @@ main {
     border-radius: 50%;
 }
 
-/*
+
 #med-bg {
     background: url("../images_logo/scenery-countryside-road.jpg") no-repeat center /cover; 
 }
 
 .bg-image {
-    background-color: rgba(118, 115, 85, .8);
+    background-color: rgba(255, 255, 255, .8);
     width: 100%;
     height: 100%;
-} */
+}
 
 /* meditations */
-.meditation-content { 
+.med-content {
+  width: 90%;
+  background-color: rgba(255, 255, 255, .65);
   margin: 5px;
-  border: 2px;
+  padding-top: 20px;
+  margin: auto;
+  /* border-bottom: 2px solid #767355; */
   padding: 5px;
 }
 
@@ -275,6 +282,13 @@ footer {
         width: 70px;
         padding-bottom: 15px;
     }
+
+    /* meditations */
+.med-content {
+    width: 60%;
+    max-width: 800px;
+    padding: 10px;
+  }
 
  }   
 
