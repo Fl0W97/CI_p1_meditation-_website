@@ -43,15 +43,7 @@ h1 {
     padding-bottom: 10px;
 }
 
-h3 {
-    box-shadow: 0 2px 0 #0f9d58;
-}
-
-h4 {
-    text-align: center;
-    padding: 25px 0 15px;
-}
-
+/* Logo size defined for all icons and logos */
 #logo_size {
     height: 30px;
     width: 30px;
@@ -90,12 +82,14 @@ nav {
 /* Main content */
 main {
     background-color: #f8f7f3;
+    /* Push main down due to header*/
     margin-top: 97px;
 
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
 
+/* Main content - section hero images*/
 #hero_image {
     height: 500px;
     width: 100%;
@@ -103,67 +97,82 @@ main {
     border-bottom: 3px solid #3a3a3a;
 }
 
-/* currently not working */
-#hero_small {
-    height: 250px;
-    width: 100%;
-    background: url("../images_logo/hero_small.png") no-repeat center center/cover;
-}
-
 #text_cover {
-    /* rgba value transparent */
     color: #ffffff;
+    /* rgba value transparent */
     background-color: rgba(241, 109, 107, .5);
-    font-size: 120%;
+    font-size: 110%;
     width: 80%;
     position: absolute;
     top: 100px;
     min-height: 200px;
     padding-top: 40px;
     padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+/* images for how.html and who.html */
+#hero_small {
+    height: 250px;
+    width: 100%;
+    background: url("../images_logo/hero_small.png") no-repeat center center/cover;
+}
+
+/* Main content - further sections*/
+h3 {
+    box-shadow: 0 2px 0 #0f9d58;
+    padding: 3px;
+}
+
+h4 {
+    text-align: center;
+    padding: 2px;
 }
 
 .section_style {
   margin: auto;
-  padding: 10px;
+  padding: 20px;
   border-bottom: 1px solid silver;
 }
 
 .bg-dark {
     background-color: #dcccb2;
+}
+
+.text-center {
     text-align: center;
 }
 
-.reasons_infobox {
+.width_90 {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.reasons_hints {
     margin: auto;
     display: flex;
     flex-direction: column;
     text-decoration: none;
 }
 
-.noborder {
-    border-bottom: 0px;
-}
-
-.infobox {
+.image_container_center {
     padding: 0;
     margin: auto;
 }
 
-.infobox_style {
-    padding: 0;
-    margin: auto;
-}
 
-#image_pixel_brain {
+/* content relevant for index.html */
+#image_stones {
     background: url("../images_logo/logo_calm_down_adjusted.png") no-repeat top right / cover;
     height: 20vw;
     width: 20vw;
     margin: auto;
-    /* display: none; */
 }
 
-#circle_cover {
+/* content relevant for how.html */
+#flat_people_meditating {
     background: url("../images_logo/flat_people_meditating_adjusted.jpg") no-repeat top right / cover;
     height: 45vw;
     width: 70vw;
@@ -172,29 +181,39 @@ main {
     margin: auto;
 }
 
-#med-bg {
+#bg-forest {
     background: url("../images_logo/scenery-countryside-road.jpg") no-repeat center /cover; 
 }
 
-.bg-image {
+.bg-transparent {
     background-color: rgba(255, 255, 255, .8);
     width: 100%;
     height: 100%;
 }
 
 /* meditations */
+
+.meditations {
+    /* put the menu for meditations in the center in techniques.html*/
+    justify-content: center;
+    width: 85%;
+    margin: auto;
+}
+
 .med-content {
-  width: 90%;
+  width: 85%;
   background-color: rgba(255, 255, 255, .65);
   margin: 5px;
   padding-top: 20px;
   margin: auto;
   /* border-bottom: 2px solid #767355; */
   padding: 5px;
+  font-size: 110%;
 }
 
 audio {
     padding: 7px;
+    width: 100%;
 }
 
 /* Footer */
@@ -238,11 +257,6 @@ footer {
         justify-content: flex-end;
     }
 
-    .menu2_adjust {
-        /* put the section menu in techniques.html in the center*/
-        justify-content: center;
-    }
-
     .menu li a {
         padding-right: 2rem;
         padding-left: 5px;
@@ -259,7 +273,7 @@ footer {
         right: 70px;
     }
 
-    .reasons_infobox {
+    .reasons_hints {
         flex-direction: column;
         display: flex;
         /*justify-content: space-around;*/
@@ -276,23 +290,26 @@ footer {
         margin: 7px;
     }
 
-    .infobox {
-        width: 50%;
-        margin: auto;
-    }
-
-    #image_pixel_brain {
+    #image_stones {
         height: 20vw;
         width: 20vw;
         margin: auto;
     }
 
+    .meditations {
+        /* put the menu for meditations in the center in techniques.html*/
+        justify-content: center;
+        width: 75%;
+        max-width: 800px;
+        margin: auto;
+    }
+
     /* meditations */
-.med-content {
-    width: 60%;
-    max-width: 800px;
-    padding: 10px;
-  }
+    .med-content {
+        width: 75%;
+        max-width: 800px;
+        padding: 10px;
+    }
 
  }   
 
@@ -305,20 +322,14 @@ footer {
         border-left: 5px solid #0f9d58;
         font-weight: bold;
     }
-    
 
-    .menu2_adjust {
-        /* put the section menu in techniques.html in the center*/
-        display: none;
-    }
-
-    .reasons_infobox {
+    .reasons_hints {
         display: flex;
         flex-direction: row;
         width: 80%;
     }
 
-    .reasons_infobox > div {
+    .reasons_hints > div {
     flex: 1;
     }
 
@@ -327,7 +338,7 @@ footer {
         align-self: flex-start;      
     }
     
-    .infobox {
+    .image_container_center {
         order: 0;
         align-self: flex-end;
     }
@@ -341,28 +352,6 @@ footer {
 /*Media query: desktop and larger (1200px and up)
   @media screen and (min-width: 1200px) {
 
-    .reasons_infobox {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .reasons_infobox > div {
-    flex: 1;
-    }
-
-    .reasons_internal {
-        order: 1;
-        align-self: flex-start;      
-    }
-    
-    .infobox {
-        order: 0;
-        align-self: flex-end;
-    }
-
-    .reasons_internal {
-        padding-top: 100px;
-    }
  }
 */ 
 
