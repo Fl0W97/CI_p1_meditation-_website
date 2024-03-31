@@ -101,9 +101,9 @@ main {
 
 /* currently not working */
 #hero_small {
-    height: 200px;
+    height: 250px;
     width: 100%;
-    background: url("../images_logo/hero_image.jpg") no-repeat center center/cover;
+    background: url("../images_logo/hero_small.png") no-repeat center center/cover;
 }
 
 #text_cover {
@@ -132,7 +132,6 @@ main {
 
 .reasons_infobox {
     margin: auto;
-    width: 85%;
     padding-top: 20px;
     display: flex;
     flex-direction: column;
@@ -149,12 +148,12 @@ main {
 }
 
 .infobox {
-    padding: 30px;
-    margin-top: 10px;
+    padding: 20px;
+    margin-top: 7px;
 }
 
 .infobox_style {
-    padding: 20px;
+    padding: 10px;
     border: 2px double #0f9d58;
 }
 
@@ -166,17 +165,23 @@ main {
     border-radius: 50%;
 }
 
-/* meditations */
-.meditation-content {
-  border: 2px;
-  padding: 5px;
+/*
+#med-bg {
+    background: url("../images_logo/scenery-countryside-road.jpg") no-repeat center /cover; 
 }
 
 .bg-image {
-    background: url("../images_logo/scenery-countryside-road.jpg") no-repeat center /cover;
-    color: #f8f7f3;
-}
+    background-color: rgba(118, 115, 85, .8);
+    width: 100%;
+    height: 100%;
+} */
 
+/* meditations */
+.meditation-content { 
+  margin: 5px;
+  border: 2px;
+  padding: 5px;
+}
 
 audio {
     padding: 7px;
@@ -253,8 +258,8 @@ footer {
 
     .reasons_infobox {
         flex-direction: inherit;
+        flex-wrap: row;
         justify-content: space-around;
-        width: 80%;
     }
 
     .reasons {
@@ -283,12 +288,15 @@ footer {
         font-weight: bold;
     }
 
-    #center_image_how {
+    #circle_cover {
         background: url("../images_logo/flat_people_meditating.jpg") no-repeat top right / cover;
-        height: 200px;
-        width: 200px;
+        height: 80vw;
+        width: 80vw;
+        max-height: 200px;
+        max-width: 300px;
         border-radius: 10px;
     }
+    
 
     .menu2_adjust {
         /* put the section menu in techniques.html in the center*/
