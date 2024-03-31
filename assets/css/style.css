@@ -125,7 +125,7 @@ main {
 
 .section_style {
   margin: auto;
-  padding: 20px;
+  padding: 10px;
   border-bottom: 1px solid silver;
 }
 
@@ -136,14 +136,9 @@ main {
 
 .reasons_infobox {
     margin: auto;
-    padding-top: 20px;
     display: flex;
     flex-direction: column;
     text-decoration: none;
-}
-
-.reason_why {
-    padding: 20px;
 }
 
 .noborder {
@@ -151,23 +146,33 @@ main {
 }
 
 .infobox {
-    padding: 20px;
-    margin-top: 7px;
+    padding: 0;
+    margin: auto;
 }
 
 .infobox_style {
-    padding: 10px;
-    border: 2px double #0f9d58;
+    padding: 0;
+    border-bottom: 1px double #0f9d58;
+    margin: auto;
 }
 
 #image_pixel_brain {
-    background: url("../images_logo/pixel_brain.jpg") no-repeat top right / cover;
-    text-align: right;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
+    background: url("../images_logo/logo_calm_down_adjusted.png") no-repeat top right / cover;
+    height: 20vw;
+    width: 20vw;
+    margin: auto;
+    /* display: none; */
 }
 
+#circle_cover {
+    background: url("../images_logo/flat_people_meditating_adjusted.jpg") no-repeat top right / cover;
+    height: 45vw;
+    width: 70vw;
+    max-height: 200px;
+    max-width: 300px;
+    border-radius: 10px;
+    margin: auto;
+}
 
 #med-bg {
     background: url("../images_logo/scenery-countryside-road.jpg") no-repeat center /cover; 
@@ -256,31 +261,35 @@ footer {
         right: 70px;
     }
 
-    /*
-    .reason_why.right {
-        text-align: end;
-        align-self: flex-end;
-    }
-    */
-
     .reasons_infobox {
-        flex-direction: inherit;
-        flex-wrap: row;
-        justify-content: space-around;
+        flex-direction: column;
+        display: flex;
+        /*justify-content: space-around;*/
+        width: 80%;
     }
 
+    .reasons_infobox div {
+        margin: 5px;
+    }
+    
     .reasons {
         width: 100%;
     }
 
+    .reasons_internal {
+        padding-top: 100px;
+        text-align: end;
+    }
+
     .infobox {
         width: 50%;
+        margin: auto;
     }
 
     #image_pixel_brain {
-        height: 70px;
-        width: 70px;
-        padding-bottom: 15px;
+        height: 20vw;
+        width: 20vw;
+        margin: auto;
     }
 
     /* meditations */
@@ -301,15 +310,6 @@ footer {
         border-left: 5px solid #0f9d58;
         font-weight: bold;
     }
-
-    #circle_cover {
-        background: url("../images_logo/flat_people_meditating.jpg") no-repeat top right / cover;
-        height: 80vw;
-        width: 80vw;
-        max-height: 200px;
-        max-width: 300px;
-        border-radius: 10px;
-    }
     
 
     .menu2_adjust {
@@ -318,16 +318,34 @@ footer {
     }
  }
 
-  /* Media query: desktop and larger (992px and up) 
-  @media screen and (min-width: 992px) {
+/*Media query: desktop and larger (1200px and up)*/ 
+  @media screen and (min-width: 1200px) {
 
-    #center_image_how {
-        order: 1;
+    .reasons_infobox {
+        display: flex;
+        flex-direction: row;
     }
 
-    order 0... left
+    .reasons_infobox > div {
+    flex: 1;
+    }
+
+    .reasons_internal {
+        order: 1;
+        align-self: flex-start;      
+    }
+    
+    .infobox {
+        order: 0;
+        align-self: flex-end;
+    }
+
+    .reasons_internal {
+        padding-top: 100px;
+    }
  }
-*/
+
+
  /* color codes and further notes
 
 white #ffffff
