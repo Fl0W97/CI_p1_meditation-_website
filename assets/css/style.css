@@ -152,7 +152,6 @@ main {
 
 .infobox_style {
     padding: 0;
-    border-bottom: 1px double #0f9d58;
     margin: auto;
 }
 
@@ -170,7 +169,6 @@ main {
     width: 70vw;
     max-height: 200px;
     max-width: 300px;
-    border-radius: 10px;
     margin: auto;
 }
 
@@ -267,18 +265,15 @@ footer {
         /*justify-content: space-around;*/
         width: 80%;
     }
-
-    .reasons_infobox div {
-        margin: 5px;
-    }
     
     .reasons {
         width: 100%;
+        margin: 7px;
     }
 
     .reasons_internal {
-        padding-top: 100px;
         text-align: end;
+        margin: 7px;
     }
 
     .infobox {
@@ -316,9 +311,34 @@ footer {
         /* put the section menu in techniques.html in the center*/
         display: none;
     }
+
+    .reasons_infobox {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+    }
+
+    .reasons_infobox > div {
+    flex: 1;
+    }
+
+    .reasons_internal {
+        order: 1;
+        align-self: flex-start;      
+    }
+    
+    .infobox {
+        order: 0;
+        align-self: flex-end;
+    }
+
+    .reasons_internal {
+        padding-top: 100px;
+    }
+
  }
 
-/*Media query: desktop and larger (1200px and up)*/ 
+/*Media query: desktop and larger (1200px and up)
   @media screen and (min-width: 1200px) {
 
     .reasons_infobox {
@@ -344,7 +364,7 @@ footer {
         padding-top: 100px;
     }
  }
-
+*/ 
 
  /* color codes and further notes
 
