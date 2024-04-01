@@ -53,8 +53,8 @@ who.html
 <img src="assets/css/images_readme/preview_who.PNG" alt="image shows preview of who.html>
 
 ## Design
-change 
-add freepik.com illustration for each seaction
+Plain, simple design to lead the focus of the content. Peaceful image scenary is selected to calm down. The colors used are mostly white (#ffffff, #140b08), grey (#dcccb2), green (#0f9d58) and a few black elements such as the logo (#252525, #000000).
+The main font color is black, grey (#918e8e) to provide a userfriendly contrast.  
 
 ## Testing
 Testing was done in small breaks during the development. Validators have been used. In addition, for a quick check the preview and the web development feature in the browser has been used for testing.
@@ -62,6 +62,9 @@ Testing was done in small breaks during the development. Validators have been us
 
 ### Bugs
 Some adjustment has been necessary i.e. the flex features haven't been working correctly due to wrong values. Typos caused problems with css definitions, ...
+
+id="menu_meditations"
+Due to header fixation the anchor has to be placed to another section (more above). Same problem appears when the sub-navigation is used an the user wants to jump to i.e. the body scan meditation. The header covers the audio player, the user has to scroll up a bit.
 
 ### Validator Testing
 Validator testing has been done on:
