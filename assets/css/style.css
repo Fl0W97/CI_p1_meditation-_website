@@ -230,6 +230,16 @@ audio {
     color: #3a3a3a;
 }
 
+/* circle images of the author and creator */
+#author_image_size {
+    height: 20vw;
+    width: 20vw;
+    max-height: 100px;
+    max-width: 100px;
+    border-radius: 50%;
+    border-color: #0f9d58;
+}
+
 /* Footer */
 footer {
     background-color: #dcccb2;
