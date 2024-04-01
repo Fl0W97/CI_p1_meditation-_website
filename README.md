@@ -71,11 +71,11 @@ Validator testing has been done on:
 
 https://validator.w3.org/
 
-<img src="assets/css/images_readme/html_validator.PNG" alt="image shows preview of html validator>
+<img src="assets/css/images_readme/html_validator.PNG" alt="image shows preview of html validator">
 
 https://jigsaw.w3.org/css-validator/
 
-<img src="assets/css/images_readme/css_validator.PNG alt="image preview of css validator">
+<img src="assets/css/images_readme/css_validator.PNG" alt="image preview of css validator">
 
 ### Unfixed Bugs
 <img>?
