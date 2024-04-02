@@ -231,7 +231,7 @@ audio {
 }
 
 /* Provide a fixed anchor due to header fixation */
-a.anchor {
+.anchor {
     display: block;
     position: relative;
     top: -97px;
