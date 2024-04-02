@@ -216,6 +216,7 @@ audio {
     width: 100%;
 }
 
+/* Simplify the navigation for the user dealing with the meditation section */
 .scroll_up {
     font-size: 85%;
     padding: 20px;
@@ -227,6 +228,14 @@ audio {
     border-bottom: 2px solid #0f9d58;
     text-decoration: none;
     color: #3a3a3a;
+}
+
+/* Provide a fixed anchor due to header fixation */
+a.anchor {
+    display: block;
+    position: relative;
+    top: -97px;
+    visibility: hidden;
 }
 
 /* circle images of the author and creator */
