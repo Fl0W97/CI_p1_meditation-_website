@@ -44,7 +44,7 @@ h1 {
 }
 
 /* Logo size defined for all icons and logos */
-#logo_size {
+.logo_size {
     height: 30px;
     width: 30px;
 }
@@ -114,6 +114,12 @@ main {
 
 /* images for how.html and who.html */
 #hero_small {
+    height: 250px;
+    width: 100%;
+    background: url("../images_logo/hero_small.png") no-repeat center center/cover;
+}
+
+.hero_small {
     height: 250px;
     width: 100%;
     background: url("../images_logo/hero_small.png") no-repeat center center/cover;
@@ -191,7 +197,6 @@ h4 {
 }
 
 /* meditations */
-
 .meditations {
     /* put the menu for meditations in the center in techniques.html*/
     justify-content: center;
@@ -240,6 +245,15 @@ audio {
 
 /* circle images of the author and creator */
 #author_image_size {
+    height: 20vw;
+    width: 20vw;
+    max-height: 100px;
+    max-width: 100px;
+    border-radius: 50%;
+    border-color: #0f9d58;
+}
+
+.author_image_size {
     height: 20vw;
     width: 20vw;
     max-height: 100px;
@@ -348,6 +362,12 @@ footer {
   /* Media query: desktop and larger (992px and up) */
  @media screen and (min-width: 992px) {
 
+    /* Logo size defined for all icons and logos, increase logo size */
+    .logo_size {
+    height: 40px;
+    width: 40px;
+    }
+    
     .menu li a:hover {
         color: #0f9d58;
         padding-left: 5px;
