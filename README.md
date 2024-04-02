@@ -57,7 +57,13 @@ Plain, simple design to lead the focus of the content. Peaceful image scenary is
 The main font color is black, grey (#918e8e) to provide a userfriendly contrast.  
 
 ## Testing
-Testing was done in small breaks during the development. Validators have been used. In addition, for a quick check the preview and the web development feature in the browser has been used for testing.
+- Testing was done in small breaks during the development and at the end of the project
+- Validators have been used.
+- small feature checks has been made by using preview and the devtools device toolbar
+- I tested that this page works in different browsers such as Edge,  Chrome and Firefox.
+- Responsivness is tested with different screen sizes by using devtools device toolbar.
+- navigation, header and content of all subpages is readable and easy to understand.
+- the audio files are working and autoplay is deactivated when the page is opened.
 
 
 ### Bugs
@@ -66,23 +72,32 @@ Some adjustment has been necessary i.e. the flex features haven't been working c
 id="menu_meditations"
 Due to header fixation the anchor has to be placed to another section (more above). Same problem appears when the sub-navigation is used an the user wants to jump to i.e. the body scan meditation. The header covers the audio player, the user has to scroll up a bit.
 
+id="logo-size"
+is used multiple times, therefore the elemt type id is not valid. The elemt is transferred into a class element.
+
+
 ### Validator Testing
 Validator testing has been done on:
 
+#### HTML validator test
 https://validator.w3.org/
+No errors were returned
 
-<img src="images_readme/html_validator.PNG" alt="image shows preview of html validator">
-
+#### CSS validator test
 https://jigsaw.w3.org/css-validator/
+No errors were returned
 
-<img src="images_readme/css_validator.PNG" alt="image preview of css validator">
+#### Accessability
+I confirm that the selected colors and fonts are easy to read and accessible by using lighthouse in devtools (Chrome).
 
 ### Unfixed Bugs
-<img>?
+No unfixed bugs.
 
 ## Deployment
 
-Deployment link: https://fl0w97.github.io/CI_p1_meditation-_website/index.html
+The site was deployed to GitHub pages. 
+
+Here the live link: https://fl0w97.github.io/CI_p1_meditation-_website/index.html
 
 ## Credits
 
