@@ -2,7 +2,7 @@
 
 Welcome to my first project, the calm down website is a landing page for people how are motivated to start meditating. It offers motivation and reasons why to start meditating, a few easy meditation techniques and further links to further sources to intensivfy meditation. The content is based on the book 'Search inside yourself'.
 
-<img src="assets/css/images_readme/AmIResponsive.PNG" alt="image shows responisveness by presenting preview on different devices">
+<img src="images_readme/AmIResponsive.PNG" alt="image shows responisveness by presenting preview on different devices">
 
 ## Features
 
@@ -20,25 +20,25 @@ Desktop view: Logo on the left site, navigation elements on the right site. Howe
 There are three media query breakpoints used: (320px), 768px, 992px
 
 Desktop view
-<img src="assets/css/images_readme/navigation_desktop.PNG" alt="image shows navigation desktop">
+<img src="images_readme/navigation_desktop.PNG" alt="image shows navigation desktop">
 
 Tablet view
-<img src="assets/css/images_readme/navigation_tablet.PNG" alt="image shows navigation tablet">
+<img src="images_readme/navigation_tablet.PNG" alt="image shows navigation tablet">
 
 Mobile view
-<img src="assets/css/images_readme/navigation_mobile.PNG" alt="image shows navigation mobile">
+<img src="images_readme/navigation_mobile.PNG" alt="image shows navigation mobile">
 
 ### The header 
 Title and logo are above the navigation. Depending on the media query the header gets bigger. The font-size/size of title and logo increases. The header's height is around 100px, therefore. there is a margin-top value of 97px on the main element.
 
 Header
-<img src="assets/css/images_readme/header.PNG" alt="image shows header">
+<img src="images_readme/header.PNG" alt="image shows header">
 
 ### Homepage why.html / Welcome
 The homepage shows a hero image that indicates what this site is about: meditation and finding peace. Below the hero image there is text and motivative reasons why the user should start meditating. Depeneding on the device the content adjsuted smoothly on the screen size.
 
 Homepage
-<img src="assets/css/images_readme/preview_why.PNG" alt="image shows preview of why.html">
+<img src="images_readme/preview_why.PNG" alt="image shows preview of why.html">
 
 ### How.html / Instructions and meditation techniques
 Find here useful information to start meditating. There is a small image which remains the atmosphere of the homepage. Below you find short instructions. In addition, you find at the bottom different meditations texts and audio player. Each meditation is written down and recorded. For a better navigation there is a menu above the meditations and anchors placed below each.
@@ -71,11 +71,11 @@ Validator testing has been done on:
 
 https://validator.w3.org/
 
-<img src="assets/css/images_readme/html_validator.PNG" alt="image shows preview of html validator">
+<img src="images_readme/html_validator.PNG" alt="image shows preview of html validator">
 
 https://jigsaw.w3.org/css-validator/
 
-<img src="assets/css/images_readme/css_validator.PNG" alt="image preview of css validator">
+<img src="images_readme/css_validator.PNG" alt="image preview of css validator">
 
 ### Unfixed Bugs
 <img>?
