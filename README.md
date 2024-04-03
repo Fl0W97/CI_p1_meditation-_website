@@ -41,7 +41,7 @@ Homepage
 <img src="images_readme/preview_why.PNG" alt="image shows preview of why.html">
 
 ### How.html / Instructions and meditation techniques
-Find here useful information to start meditating. There is a small image which remains the atmosphere of the homepage. Below you find short instructions. In addition, you find at the bottom different meditations texts and audio player. Each meditation is written down and recorded. For a better navigation there is a menu above the meditations and anchors placed below each.
+Find here useful information to start meditating. There is a small image which remains the atmosphere of the homepage. Below you find short instructions. In addition, you find at the bottom different meditations texts and audio player. Each meditation is written down and recorded. For a better navigation there is a submenu above the meditations and anchors placed below each meditation. The anchor has to be fixed -97px and hidden due to the fix header at the top.
 
 how.html
 <img src="assets/css/images_readme/preview_how.PNG" alt="image shows preview of how.html">
@@ -111,13 +111,19 @@ https://www.freepik.com/search?format=search&img=1&last_filter=img&last_value=1&
 https://www.freepik.com/search#uuid=e32d609a-2728-482c-888c-a2f48f37a07b
 https://www.freepik.com/icon/man_7118103#fromView=search&page=1&position=14&uuid=78e40cd6-31c1-4419-bb6f-f74405b905ab
 https://www.freepik.com/icon/person-identify_11087997#fromView=search&page=1&position=28&uuid=405651ad-1d0c-48e0-a6f8-dcd2c157bd4f
-https://www.freepik.com/icon/one-man-walking_76865
-https://www.freepik.com/icon/target_566958
-https://www.freepik.com/icon/boiling_2478676
-https://www.freepik.com/icon/heart_10048161
-https://www.freepik.com/icon/overwhelmed_6210111
-https://www.freepik.com/icon/network_841262
+
+Images for seasons why
 https://www.freepik.com/icon/peace_9344997
+https://www.freepik.com/icon/friend_10879075
+https://www.freepik.com/icon/target_566958
+https://www.freepik.com/icon/overwhelmed_6210111
+
+Image for meditations
+https://www.freepik.com/icon/boiling_2478676
+https://www.freepik.com/icon/mindfulness_11245449
+https://www.freepik.com/icon/one-man-walking_76865
+https://www.freepik.com/icon/circle-arrows_7893895
+https://www.freepik.com/icon/body-scan_10890662
 
 Image hero image
 https://picjumbo.com/download?d=woman-meditating-on-wooden-platform-with-amazing-scenery-view-free-photo.jpg&n=woman-meditating-on-wooden-platform-with-amazing-scenery-view&id=1
@@ -147,3 +153,7 @@ https://www.helpguide.org/meditations/guided-imagery-meditation.htm
 https://www.mindful.org/how-to-meditate/
 https://siyli.org/check-out-siylis-new-look/
 https://www.headspace.com/
+
+### Code
+Reused code/ idea from Love Running project:
+flex:box logic for responisive navigation and content
