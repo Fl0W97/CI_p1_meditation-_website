@@ -44,13 +44,14 @@ Homepage
 Find here useful information to start meditating. There is a small image which remains the atmosphere of the homepage. Below you find short instructions. In addition, you find at the bottom different meditations texts and audio player. Each meditation is written down and recorded. For a better navigation there is a submenu above the meditations and anchors placed below each meditation. The anchor has to be fixed -97px and hidden due to the fix header at the top.
 
 how.html
-<img src="assets/css/images_readme/preview_how.PNG" alt="image shows preview of how.html">
+<img src="images_readme/preview_how.PNG" alt="image shows preview of how.html">
 
 ### Who.html / About authour and website creator
 Displays content about author of the book 'Search Inside Yourself' and a few random information about the creator. Sections and divs are reused from previous pages.
 
 who.html
-<img src="assets/css/images_readme/preview_who.PNG" alt="image shows preview of who.html>
+
+<img src="images_readme/preview_who.PNG" alt="image shows preview of who.html">
 
 ## Design
 Plain, simple design to lead the focus of the content. Peaceful image scenary is selected to calm down. The colors used are mostly white (#ffffff, #140b08), grey (#dcccb2), green (#0f9d58) and a few black elements such as the logo (#252525, #000000).
@@ -70,10 +71,12 @@ The main font color is black, grey (#918e8e) to provide a userfriendly contrast.
 Some adjustment has been necessary i.e. the flex features haven't been working correctly due to wrong values. Typos caused problems with css definitions, ...
 
 id="menu_meditations"
-Due to header fixation the anchor has to be placed to another section (more above). Same problem appears when the sub-navigation is used an the user wants to jump to i.e. the body scan meditation. The header covers the audio player, the user has to scroll up a bit.
+Due to header fixation the anchor has to be placed to another section (more above). Same problem appears when the sub-navigation is used an the user wants to jump to i.e. the body scan meditation. The header covers the audio player, the user has to scroll up a bit. To fix this issue a hidden anchor was added.
 
 id="logo-size"
-is used multiple times, therefore the elemt type id is not valid. The elemt is transferred into a class element.
+Id selector is used multiple times, therefore the elemt type id is not valid. The elemt is transferred into a class element.
+
+Due to a bad performance via Lighthouse the images have been compressed via [tiny.com](https://tinypng.com/)
 
 
 ### Validator Testing
@@ -89,6 +92,8 @@ No errors were returned
 
 #### Accessability
 I confirm that the selected colors and fonts are easy to read and accessible by using lighthouse in devtools (Chrome).
+
+<img src="images_readme/Lighthouse_analysis_index_03.04.2023.PNG" alt="image shows Lighthouse result">
 
 ### Unfixed Bugs
 No unfixed bugs.
@@ -137,6 +142,9 @@ https://www.istockphoto.com/de/vektor/abstrakte-pyramide-der-lebensbalance-suche
 
 Favicon generator
 https://favicon.io/
+
+Reduce image size
+https://tinypng.com/
 
 Fonts
 https://fonts.google.com/
