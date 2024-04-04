@@ -96,9 +96,18 @@ Wireframes were developed for mobile, tablet, and desktop sizes by using Balsami
 
 ### Mobile Wireframes
 
+<img src="images_readme/wireframe_index_mobile.PNG" alt="image shows wireframe of index.html">
+<img src="images_readme/wireframe_how_mobile.PNG" alt="image shows wireframe of how.html">
+
 ### Tablet Wireframes
 
+<img src="images_readme/wireframe_index_tablet.PNG" alt="image shows wireframe of index.html">
+<img src="images_readme/wireframe_how_tablet.PNG" alt="image shows wireframe of how.html">
+
 ### Desktop Wireframes
+
+<img src="images_readme/wireframe_index_desktop.PNG" alt="image shows wireframe of index.html">
+<img src="images_readme/wireframe_how_desktop.PNG" alt="image shows wireframe of how.html">
 
 
 ## Testing
@@ -197,8 +206,6 @@ Here the live link: https://fl0w97.github.io/CI_p1_meditation-_website/index.htm
 - [Google Fonts](https://fonts.google.com/) used to search a suitable font and using it
 - [Font Awesome](https://fontawesome.com/) used for logo designs (Linkedin, Youtube and GitHub)
 - [Tinypng](https://tinypng.com/) used for reducing image size
-
-
 
 
 ## Credits
