@@ -103,12 +103,12 @@ Wireframes were developed for mobile, tablet, and desktop sizes by using Balsami
 
 ## Testing
 - Testing was done in small breaks during the development and at the end of the project
-- Validators have been used.
+- Validators have been used
 - small feature checks has been made by using preview and the devtools device toolbar
-- I tested that this page works in different browsers such as Edge,  Chrome and Firefox.
-- Responsivness is tested with different screen sizes by using devtools device toolbar.
-- navigation, header and content of all subpages is readable and easy to understand.
-- the audio files are working and autoplay is deactivated when the page is opened.
+- I tested that this page works in different browsers such as Edge, Chrome and Firefox
+- Responsivness is tested with different screen sizes by using devtools device toolbar
+- navigation, header and content of all subpages is readable and easy to understand
+- the audio files are working and autoplay is deactivated when the page is opened
 
 
 ### Bugs
@@ -126,19 +126,23 @@ Due to a bad performance via Lighthouse the images have been compressed via [tin
 ### Validator Testing
 Validator testing has been done on:
 
-#### HTML validator test
-https://validator.w3.org/
+#### [HTML validator](https://validator.w3.org/)
+
 No errors were returned
 
 <img src="images_readme/html_validator_index.PNG" alt="image shows preview of who.html">
+
+<details>
+    <summary>Subpages</summary>
 
 <img src="images_readme/html_validator_how.PNG" alt="image shows preview of who.html">
 
 <img src="images_readme/html_validator_who.PNG" alt="image shows preview of who.html">
 
+</details>
 
-#### CSS validator test
-https://jigsaw.w3.org/css-validator/
+#### [CSS validator](https://jigsaw.w3.org/css-validator/)
+
 No errors were returned
 
 <img src="images_readme/css_validator.PNG" alt="image shows preview of who.html">
@@ -162,17 +166,19 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 Here the live link: https://fl0w97.github.io/CI_p1_meditation-_website/index.html
 
-Cloning
+<details>
+    <summary>Cloning repository</summary>
 
 1. Visit the GitHub repository.
 2. Find the Code button situated above the file list and give it a click.
 3. Choose your preferred cloning method — whether it's HTTPS, SSH, or GitHub and hit the copy button to copy the URL to your clipboard.
-5. Launch Git Bash or Terminal.
-6. Navigate to the directory where you want the cloned directory to reside.
-7. In your IDE Terminal, input the following command to clone the repository:
+4. Launch Git Bash or Terminal.
+5. Navigate to the directory where you want the cloned directory to reside.
+6. In your IDE Terminal, input the following command to clone the repository:
  git clone https://github.com/Fl0W97/CI_p1_meditation-_website.git
 7. Press Enter to create your local clone.
 
+</details>
 
 
 ## Tools & Technologies used
@@ -185,53 +191,62 @@ Cloning
 - GitHub used for secure online code storage
 - GitHub Pages used for hosting the deployed front-end site
 - Gitpod used for local IDE for development
+- [Balsamiq](https://balsamiq.com/wireframes/desktop) used for creating Wireframes
+- [Color generator](http://colormind.io/) used for choosing the correct HEX code
 - [Favicon.io](https://favicon.io/) used to create the favicon
-- [Google Fonts](https://fonts.google.com/) used to search a suitable font and obtain a download link for that font
+- [Google Fonts](https://fonts.google.com/) used to search a suitable font and using it
 - [Font Awesome](https://fontawesome.com/) used for logo designs (Linkedin, Youtube and GitHub)
 - [Tinypng](https://tinypng.com/) used for reducing image size
+
+
 
 
 ## Credits
 
 ### Media
 
-Small illustrations and images are used from Freepik.com
-- https://www.freepik.com/search?format=search&img=1&last_filter=img&last_value=1&query=&selection=1
-- https://www.freepik.com/search#uuid=e32d609a-2728-482c-888c-a2f48f37a07b
-- https://www.freepik.com/icon/man_7118103#fromView=search&page=1&position=14&uuid=78e40cd6-31c1-4419-bb6f-f74405b905ab
-- https://www.freepik.com/icon/person-identify_11087997#fromView=search&page=1&position=28&uuid=405651ad-1d0c-48e0-a6f8-dcd2c157bd4f
+<details>
+    <summary>icons/ illustrations and images used from [Freepik.com ](https://www.freepik.com/) and [Picjumbo.com](https://picjumbo.com/)</summary>
 
-Images for reasons
+### Images for reasons
+
 - https://www.freepik.com/icon/peace_9344997
 - https://www.freepik.com/icon/friend_10879075
 - https://www.freepik.com/icon/target_566958
 - https://www.freepik.com/icon/overwhelmed_6210111
 - https://www.freepik.com/icon/pain_6210132
 
-Image for meditations etc
+### Image for meditations etc
+
 - https://www.freepik.com/icon/boiling_2478676
 - https://www.freepik.com/icon/mindfulness_11245449
 - https://www.freepik.com/icon/one-man-walking_76865
 - https://www.freepik.com/icon/circle-arrows_7893895
 - https://www.freepik.com/icon/body-scan_10890662
 
-Image hero image
+### Image hero image
+
 - https://picjumbo.com/download=woman-meditating-on-wooden-platform-with-amazing-scenery-view-free-photo.jpg&n=woman-meditating-on-wooden-platform-with-amazing-scenery-view&id=1
 
-Background image
+### Background image
+
 - https://i0.wp.com/picjumbo.com/wp-content/uploads/romantic-fall-scenery-countryside-road-in-foggy-autumn-morning-free-photo.jpg?w=2210&quality=70
 
-Logo Calm down
+### Logo Calm down
+
 - https://www.istockphoto.com/de/vektor/abstrakte-pyramide-der-lebensbalance-suche-mit-anpassung-des-mentalen-und-gm1353485594-428574758
 
-
-Photo of the author Chade-Meng Tan
+### Photo of the author Chade-Meng Tan
 - https://community.thriveglobal.com/wp-content/uploads/2017/08/20120201_1_0032.jpg
+
+</details>
+
 
 All audio files are recorded by the website creator.
 
 
 ### Content
+
 Book 'Search Inside Yourself by Chade-Meng Tan
 https://www.helpguide.org/meditations/guided-imagery-meditation.htm
 https://www.mindful.org/how-to-meditate/
@@ -241,6 +256,11 @@ Support in text formulating [ChatGPT](https://chat.openai.com/)
 
 
 ### Code
-Reused code/ idea from Love Running project Code Institute, especially 
-flex:box logic for responisive navigation and content.
 
+| Description  | Source | URL |
+| ------------- | ------------- | ------------- |
+| Flex:box logic for responisive navigation and content.  | Code Institute, Course Love Running Project | [https://learn.codeinstitute.net](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/)
+| Audio feature  | w3schools  | https://www.w3schools.com/tags/tag_audio.asp
+| Fix anchor | Forum Stackoverflow  | https://stackoverflow.com/questions/10732690offsetting-an-html-anchor-to-adjust-for-fixed-header
+| Scroll smooth feature  | w3schools  | https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+| Generate Markdown file  | GitHUb | https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
