@@ -1,6 +1,6 @@
 # Calm down
 
-Welcome to my first project, the calm down website is a landing page for people how are motivated to start meditating. It offers motivation and reasons why to start meditating, a few easy meditation techniques and further links to further sources to intensify meditation. The content is based on the book 'Search Inside Yourself'.
+Welcome to my first project, the calm down website is a landing page for people how are motivated to start meditating. It offers motivation and reasons why to start meditating, a few easy meditation techniques and a few further information. The content is based on the book 'Search Inside Yourself'.
 
 <img src="images_readme/AmIResponsive.PNG" alt="image shows responisveness by presenting preview on different devices">
 
