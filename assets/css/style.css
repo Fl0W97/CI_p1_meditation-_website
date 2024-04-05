@@ -249,6 +249,7 @@ audio {
     visibility: hidden;
 }
 
+/* content relevant for how.html */
 /* circle images of the author and creator */
 #author_image_size {
     height: 20vw;
@@ -340,12 +341,6 @@ footer {
     .reasons_internal {
         text-align: end;
         margin: 7px;
-    }
-
-    #image_stones {
-        height: 20vw;
-        width: 20vw;
-        margin: auto;
     }
 
     .meditations {
