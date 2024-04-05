@@ -51,6 +51,10 @@ p {
     padding: 3px;
 }
 
+.space_bottom {
+    padding-bottom: 20px;
+}
+
 /* Logo size defined for all icons and logos */
 .logo_size {
     height: 30px;
