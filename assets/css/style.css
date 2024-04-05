@@ -125,12 +125,6 @@ main {
 }
 
 /* images for how.html and who.html */
-#hero_small {
-    height: 250px;
-    width: 100%;
-    background: url("../images_logo/hero_small.png") no-repeat center center/cover;
-}
-
 .hero_small {
     height: 250px;
     width: 100%;
@@ -183,8 +177,8 @@ h4 {
 /* content relevant for index.html */
 #image_stones {
     background: url("../images_logo/logo_calm_down_adjusted.png") no-repeat top right / cover;
-    height: 20vw;
-    width: 20vw;
+    height: 16vw;
+    width: 16vw;
     margin: auto;
 }
 
